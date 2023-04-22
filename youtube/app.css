@@ -1,0 +1,33 @@
+:root {
+  --padding: 32px;
+}
+
+#content,
+#masthead,
+#background {
+  padding-top: var(--padding) !important;
+}
+
+#header.ytd-app {
+  position: relative;
+  top: var(--padding);
+}
+
+#background {
+  top: 0 !important;
+}
+
+#background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--padding);
+  -webkit-app-region: drag;
+}
+
+#guide-inner-content.ytd-app,
+ytd-mini-guide-renderer.ytd-app {
+  margin-top: var(--padding) !important;
+}
