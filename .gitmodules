@@ -1,0 +1,3 @@
+[submodule "yoke-cli"]
+	path = yoke-cli
+	url = https://github.com/Modelcode-ai/yoke-cli
